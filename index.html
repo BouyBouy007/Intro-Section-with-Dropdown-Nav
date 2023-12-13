@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+<body>
+  <header>
+    <div class="top-container">
+      <div class="top-container-left-section">
+        <img class="snap-logo" alt="snap-logo" src="images/logo.svg">
+        <div class="dropdown">
+          Features
+          <img class="arrow-down-icon" alt="arrow-down-icon" src="images/icon-arrow-down.svg">
+          <img class="arrow-up-icon" alt="arrow-up-icon" src="images/icon-arrow-up.svg">
+          <div class="features-menu menu">
+            <div class="features-choice">
+              <img src="images/icon-todo.svg">
+              Todo List
+            </div>
+            <div class="features-choice">
+              <img src="images/icon-calendar.svg">
+              Calender
+            </div>
+            <div class="features-choice">
+              <img src="images/icon-reminders.svg">
+              Reminders
+            </div>
+            <div class="features-choice">
+              <img src="images/icon-planning.svg">
+              Planning
+            </div>
+          </div>
+        </div>
+        
+        <div class="dropdown">
+          Company
+          <img class="arrow-down-icon" alt="arrow-down-icon" src="images/icon-arrow-down.svg">
+          <img class="arrow-up-icon" alt="arrow-up-icon" src="images/icon-arrow-up.svg">
+          <div class="company-menu menu">
+            <div class="company-choice">History</div>
+            <div class="company-choice">Our Team</div>
+            <div class="company-choice">Blog</div>
+          </div>
+        </div>
+        <div class="select">Careers</div>
+        <div class="select">About</div>
+      </div>
+      
+      <div class="top-container-right-section">
+        <div class="select">Login</div>
+        <button class="register-button select">Register</button>
+      </div>
+    </div>
+  </header>
+  
+  <main>
+    <div class="middle-container">
+      <div class="middle-container-left-section">
+        <h1>
+          Make remote work
+        </h1>
+        <p>
+          Get your team in sync, no matter your location. Streamline processes, 
+          create team rituals, and watch productivity soar.
+        </p>
+        <button class="learn-more-button">
+          Learn more
+        </button>
+        <div class="image-container">
+          <img alt="databiz-client" src="images/client-databiz.svg">
+          <img alt="audiophile-client" src="images/client-audiophile.svg">
+          <img alt="meet-client" src="images/client-meet.svg">
+          <img alt="maker-client" src="images/client-maker.svg">
+        </div>
+      </div>
+      <div class="middle-container-right-section">
+        <img class="hero-desktop-image" src="images/image-hero-desktop.png">
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Justin Seow Jing Nyap</a>.
+    </div>
+  </footer>
+  <script src="scripts/index.js"></script>
+</body>
+</html>

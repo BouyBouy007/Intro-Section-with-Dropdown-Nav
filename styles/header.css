@@ -1,0 +1,137 @@
+.top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  background-color: var(--almost-white);
+  color: var(--medium-gray);
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 60px;
+  font-weight: 700;
+  min-width: 900px;
+  z-index: 100;
+}
+
+.top-container-left-section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.snap-logo {
+  margin-right: 60px;
+}
+
+.select {
+  cursor: pointer;
+}
+
+.select:hover {
+  color: var(--almost-black);
+  border-color: var(--almost-black);
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.features-button,
+.company-button {
+  position: relative;
+}
+
+.features-menu {
+  background-color: var(--almost-white);
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 80px;
+  left: 140px;
+  padding: 30px 30px 10px;
+  border-radius: 20px;
+  width: 120px;
+  box-shadow: 0 10px 60px var(--medium-gray);
+  z-index: 100;
+}
+
+.features-choice {
+  display: flex;
+  align-items: center;
+  color: var(--medium-gray);
+  gap: 20px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.company-menu {
+  background-color: var(--almost-white);
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 80px;
+  left: 350px;
+  gap: 20px;
+  padding: 20px 20px;
+  border-radius: 20px;
+  width: 90px;
+  box-shadow: 0 10px 60px var(--medium-gray);
+  z-index: 100;
+}
+
+.company-choice {
+  color: var(--medium-gray);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.features-choice:hover,
+.company-choice:hover {
+  color: var(--almost-black);
+  font-weight: 700;
+}
+
+.arrow-up-icon {
+  display: none;
+}
+
+.display-element {
+  display: flex;
+}
+
+.hide-element {
+  display: none;
+}
+
+.activate-button {
+  color: var(--almost-black);
+}
+
+.register-button {
+  font-family: 'Epilogue', sans-serif;
+  background-color: transparent;
+  color: var(--medium-gray);
+  border: 2px solid var(--medium-gray);
+  border-radius: 14px;
+  padding: 14px 24px;
+  font-weight: 700;
+}
+
+.top-container-right-section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.menu-button {
+  display: none;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
